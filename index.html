@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="img/logo/logo.png" alt="logo" class="logo" />
+        <div>
+          <h1>Salad delivery</h1>
+          <p>Prompt and delicious</p>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="row">
+            <!-- 1 -->
+            <div class="col-md-6">
+              <div class="card" data-id="01">
+                <img src="img/1.jpg" alt="" class="product-img" />
+                <h3 class="item-title">Tuna & Veggie Salad</h3>
+                <p class="text-count">1 piece</p>
+                <div class="wrap">
+                  <div class="item-control-wrap">
+                    <div class="item-control" data-action="minus">-</div>
+                    <div class="item-count" data-count>1</div>
+                    <div class="item-control" data-action="plus">+</div>
+                  </div>
+                  <div class="price">
+                    <div class="price-weight">199g.</div>
+                    <div class="price-cost">10$</div>
+                  </div>
+                </div>
+                <button class="bth bth-primary" data-cart>to cart</button>
+              </div>
+            </div>
+            <!-- ============= -->
+            <!-- 2 -->
+            <div class="col-md-6">
+              <div class="card" data-id="02">
+                <img src="img/2.jpg" alt="img" class="product-img" />
+                <h3 class="item-title">Layered Tuna Salad in a Jar</h3>
+                <p class="text-count">1 piece</p>
+                <div class="wrap">
+                  <div class="item-control-wrap">
+                    <div class="item-control" data-action="minus">-</div>
+                    <div class="item-count" data-count>1</div>
+
+                    <div class="item-control" data-action="plus">+</div>
+                  </div>
+                  <div class="price">
+                    <div class="price-weight">210g.</div>
+                    <div class="price-cost">8$</div>
+                  </div>
+                </div>
+                <button class="bth bth-primary" data-cart>to cart</button>
+              </div>
+            </div>
+            <!-- ============= -->
+            <!-- 3 -->
+            <div class="col-md-6">
+              <div class="card" data-id="03">
+                <img src="img/3.jpg" alt="img" class="product-img" />
+                <h3 class="item-title">Goat Cheese Salad</h3>
+                <p class="text-count">1 piece</p>
+                <div class="wrap">
+                  <div class="item-control-wrap">
+                    <div class="item-control" data-action="minus">-</div>
+                    <div class="item-count" data-count>1</div>
+                    <div class="item-control" data-action="plus">+</div>
+                  </div>
+                  <div class="price">
+                    <div class="price-weight">180g.</div>
+                    <div class="price-cost">12$</div>
+                  </div>
+                </div>
+                <button class="bth bth-primary" data-cart>to cart</button>
+              </div>
+            </div>
+            <!-- ============= -->
+            <!-- 4 -->
+            <div class="col-md-6">
+              <div class="card" data-id="04">
+                <img src="img/4.jpg" alt="img" class="product-img" />
+                <h3 class="item-title">Greek Salad with Feta</h3>
+                <p class="text-count">1 piece</p>
+                <div class="wrap">
+                  <div class="item-control-wrap">
+                    <div class="item-control" data-action="minus">-</div>
+                    <div class="item-count" data-count>1</div>
+                    <div class="item-control" data-action="plus">+</div>
+                  </div>
+                  <div class="price">
+                    <div class="price-weight">220g.</div>
+                    <div class="price-cost">11$</div>
+                  </div>
+                </div>
+                <button class="bth bth-primary" data-cart>to cart</button>
+              </div>
+            </div>
+            <!-- ============= -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="cart-title">Your order</h4>
+              <p class="cart-empty">Cart is empty.</p>
+            </div>
+            <div class="cart-wrap">
+              <!-- ...... -->
+            </div>
+            <div class="cart-total none"></div>
+            <hr />
+            <h5>
+              Delivery<span class="delivery">According to Glovo tariffs</span>
+            </h5>
+            <h6>Total<span class="total-price">0</span></h6>
+          </div>
+          <div class="order none">
+            <hr />
+            <h5>Place an order</h5>
+            <form id="order-form">
+              <input
+                id="phone"
+                type="text"
+                placeholder="Ваш номер телефону"
+                class="order-input"
+                required
+              />
+              <button type="submit" class="bth bth-primary">Order</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="statusCart.js"></script>
+    <script src="app.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
