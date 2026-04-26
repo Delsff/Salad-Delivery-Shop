@@ -21,8 +21,8 @@ window.addEventListener("click", (e) => {
       const cartItemHTML = `
                 <div class="card" data-id="${productInfo.id}" style="position: relative;">
                    <button class="remove-item" style="position: absolute; top: 5px; right: 5px;">❌</button>
-                    <img src="${productInfo.imgSrc}" alt="" class="product-img">
-                    <h3 class="item-title">${productInfo.title}</h3>
+                    <img src="${productInfo.imgSrc}" alt="img" class="product-img" style="position: relative; top: 20px">
+                    <h3 class="item-title" style="margin-top: 40px">${productInfo.title}</h3>
                     <p class="text-count">1 piece</p>
                     <div class="wrap">
                         <div class="item-control-wrap">
