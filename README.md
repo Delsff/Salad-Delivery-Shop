@@ -18,4 +18,4 @@ Allows users to:
 
 6.Includes clean and minimal design
 
-👉 [View Website](https://courageous-beignet-7c1947.netlify.app/)
+👉 [View Website](https://foodshopdelivery.netlify.app/)
