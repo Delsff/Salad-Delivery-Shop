@@ -28,7 +28,7 @@ window.addEventListener("click", (e) => {
                         <div class="item-control-wrap">
                             <div class="item-control" data-action="minus">-</div>
                             <div class="item-count" data-count>${productInfo.counter}</div>
-                            <div class="item-control" data-action="plus">+</div>
+                            <div class="item-control" data-action="plus" style="margin-top: 7px">+</div>
                         </div>
                         <div class="price">
                             <div class="price-weight">${productInfo.weight}</div>
